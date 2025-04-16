@@ -163,17 +163,16 @@ strong {
     margin: 0 10px;
     text-decoration: none;
     background-color: var(--dark-bg);
+    border: transparent solid 1.5px;
 }
 
-a:hover {
-    transition: 0.3s;
+.redes a:hover {
+    border: #95daa7 solid 1.5px;
+    transition: 0.3s ease;
     cursor: pointer;
-    transform: translateY(-2px);
     box-shadow:  rgba(0, 0, 0, 0.3);
+    color:#7ac291;
     background-color: var(--dark-bg);
-    border-style:ridge;
-    border-color: #95daa7;
-    
 }
 
 footer {
